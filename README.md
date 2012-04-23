@@ -1,4 +1,5 @@
-Autopsy
-=======
+Autopsy - Count you JS words
+=============================
 
-JS files stats focused on the used words.
+ * node autopsy.js inputDir
+ * node autopsy.js -o outputDir inputDir
