@@ -1,5 +1,5 @@
 Autopsy - Count you JS words
 =============================
 
- * node main.js inputDir
- * node main.js -o outputDir inputDir
+ * node src/main.js inputDir
+ * node src/main.js -o outputDir inputDir

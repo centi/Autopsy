@@ -4,7 +4,7 @@ var minWordLength = 2,
 exports.decommentize = function( input ) {
 	var output = input;
 	
-	output = output.replace( /\/\/.*(?=[\n\r])/g, "" );
+	output = output.replace( /\/\/.*(?=[\n\r])*/g, "" );
 	output = output.replace( /[\t\r\n]*/g, "" );
 	output = output.replace( /\/\*.+?\*\//g, "" );
 	

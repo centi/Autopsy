@@ -1,0 +1,33 @@
+{
+  "name": "autopsy",
+  "description": "Count you JS words",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ivan Čentéš"
+  },
+  "keywords": [
+    "stats",
+    "statistics",
+    "word",
+    "usage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/centi/Autopsy.git"
+  },
+  "main": "./src/main.js",
+  "engines": {
+    "node": "> 0.6.x"
+  },
+  "bin": {
+    "stylus": "./bin/autopsy"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  }
+} 

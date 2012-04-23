@@ -9,7 +9,7 @@ var fs = require("fs"),
 	if ( args.length === 0 ) {
 		console.log( "No input specified!" );
 		console.log( "------------------------" );
-		console.log( "node main.js inputDir" );
+		console.log( "node src/main.js inputDir" );
 		process.exit(1);
 	}
 	
