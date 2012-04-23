@@ -20,11 +20,7 @@
     "node": "> 0.6.x"
   },
   "bin": {
-    "stylus": "./bin/autopsy"
-  },
-  "scripts": {
-    "prepublish": "npm prune",
-    "test": "make test"
+    "autopsy": "./src/main.js"
   },
   "devDependencies": {
     "should": "*",
