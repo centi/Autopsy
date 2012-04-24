@@ -4,8 +4,8 @@ var util = require("util"),
 exports.getAll = function( str ) {
 	var arr, outputArr = [];
 	
-	str = ize.decommentize( str );
 	str = ize.destringize( str );
+	str = ize.decommentize( str );
 	str = ize.wordize( str );
 	
 	arr = str.split( "\n" );
